@@ -1,5 +1,3 @@
 Take a look at this demonstration: 
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=rgaYMBLbjyg">
-</iframe>
+https://github.com/user-attachments/assets/60443fd9-26da-452f-b1fe-757be3bc266a
