@@ -3,10 +3,12 @@ package org.example;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
+
 
 
 public class Start extends Application {
@@ -20,6 +22,8 @@ public class Start extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+        BackgroundMusic backgroundMusic = new BackgroundMusic();
+        new Thread(backgroundMusic).start();
         GridPane gridPane = new GridPane();
 
         for (int row = 0; row < GRID_SIZE; row++) {
